@@ -1,0 +1,29 @@
+{
+  "name": "@nivuus/framework",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nivuus": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime Allanic <maxime@allanic.me> (https://allanic.me)",
+  "license": "ISC",
+  "dependencies": {
+    "@nivuus/realtime-object-transmission": "^1.0.1",
+    "angular": "^1.7.9",
+    "angular-animate": "^1.7.9",
+    "angular-ui-router": "^1.0.25",
+    "arraybuffer-to-string": "^1.0.2",
+    "browserify": "^16.5.0",
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "get-function-arguments": "^1.0.0",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15",
+    "minify": "^5.1.1",
+    "q": "^1.5.1"
+  }
+}
